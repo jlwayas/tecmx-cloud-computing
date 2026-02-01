@@ -28,7 +28,7 @@ int main() {
     for (i = 0; i < N; i++)
         c[i] = a[i] + b[i];
 
-        double end = omp_get_wtime();
+    double end = omp_get_wtime();
 
     std::cout << "Tamaño de cada Array: " << N  << std::endl;
     std::cout << "Tiempo de procesamiento (suma paralela): " << (end - start) << " segundos\n";
